@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>YourNugetIdName</id>
+    <version>$version$</version>
+    <title>YourNugetIdName</title>
+    <authors>ozgurkaya</authors>
+    <owners>ozgurkaya</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>description</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>ozgurkaya</copyright>
+    <tags>Tag1 Tag2 Tag3</tags>
+  </metadata>
+  <files>
+    <file src="obj\**\*.*" exclude="obj\octopacking\**\*.*;obj\octopacked\**\*.*;obj\Release\Package\**\*.*;**\*.pdb;**\*.ps1;**\*.dll.config;" target="obj"/>
+    <file src="Deploy.ps1" />
+  </files>
+</package>
