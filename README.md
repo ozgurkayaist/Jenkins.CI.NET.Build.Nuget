@@ -34,6 +34,7 @@ Command Line Arguments:
  /t:Rebuild /p:DebugSymbols=false /p:DebugType=None /p:IsAutoBuild=True /p:CreatePackageOnPublish=true /p:Configuration=Release;DeployOnBuild=True;PackageLocation=".\obj\Release\myproject.zip";PackageAsSingleFile=True /p:RunOctoPack=true /p:OctoPackPackageVersion=%VERSION% /p:OctoPackPublishPackageToHttp=http://YOUR_OCTOPUSDEPLOY_URL/nuget/packages /p:OctoPackPublishApiKey=YOUR_OCTOPUSDEPLOY_APIKEY
  
 - Build(Execute Windows batch command) (Run unit tests, call OctopusDeploy API,..)
+ 
  call "C:\Scripts\JenkinsOctopack.bat" YourProjectName %VERSION% %BUILD_NUMBER% %JOB_NAME%
  
 - Post Build(Notifications like Email)
