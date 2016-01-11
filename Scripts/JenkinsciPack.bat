@@ -1,0 +1,1 @@
+"C:\Scripts\Nuget.exe" pack %1 -OutputDirectory "C:\NugetPackages" -BasePath "Binaries" -version %2

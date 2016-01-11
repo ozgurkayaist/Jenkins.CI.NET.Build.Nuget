@@ -13,7 +13,7 @@
     <tags>Tag1 Tag2 Tag3</tags>
   </metadata>
   <files>
-    <file src="obj\**\*.*" exclude="obj\octopacking\**\*.*;obj\octopacked\**\*.*;obj\Release\Package\**\*.*;**\*.pdb;**\*.ps1;**\*.dll.config;" target="obj"/>
+    <file src="obj\**\*.*" exclude="obj\octopacking\**\*.*;obj\octopacked\**\*.*;obj\Release\Package\**\*.*;**\*.pdb;**\*.ps1;**\*.dll.config;**\*.config;" target="obj"/>
     <file src="Deploy.ps1" />
   </files>
 </package>
