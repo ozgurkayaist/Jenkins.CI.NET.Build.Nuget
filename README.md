@@ -33,7 +33,7 @@
 
 	Command Line Arguments:
 
-     /t:Rebuild /p:DebugSymbols=false /p:DebugType=None /p:IsAutoBuild=True /p:CreatePackageOnPublish=true /p:Configuration=Release;DeployOnBuild=True;PackageLocation=".\obj\Release\myproject.zip";PackageAsSingleFile=True /p:RunOctoPack=true /p:OctoPackPackageVersion=%VERSION% /p:OctoPackPublishPackageToHttp=http://YOUR_OCTOPUSDEPLOY_URL/nuget/packages /p:OctoPackPublishApiKey=YOUR_OCTOPUSDEPLOY_APIKEY
+ /t:Rebuild /p:DebugSymbols=false /p:DebugType=None /p:IsAutoBuild=True /p:CreatePackageOnPublish=true /p:Configuration=Release;DeployOnBuild=True;PackageLocation=".\obj\Release\myproject.zip";PackageAsSingleFile=True /p:RunOctoPack=true /p:OctoPackPackageVersion=%VERSION% /p:OctoPackPublishPackageToHttp=http://YOUR_OCTOPUSDEPLOY_URL/nuget/packages /p:OctoPackPublishApiKey=YOUR_OCTOPUSDEPLOY_APIKEY
 
  
 - Build(Execute Windows batch command) (Run unit tests, call OctopusDeploy API,..)
@@ -48,4 +48,4 @@
 **D.Check the build and package**
 
 - Jenkins Console Log
-- Nuget Package Explorer
+- Install Nuget Package Explorer to your Nuget Feed Server. Explore the package files.
