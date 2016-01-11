@@ -32,5 +32,5 @@
 
 **D.Check the build and package**
 
--Jenkins Console Log
--Nuget Package Explorer
+- Jenkins Console Log
+- Nuget Package Explorer
