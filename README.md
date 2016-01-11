@@ -14,22 +14,23 @@
 - (optional) Nuget Plugin
 
 **B.Prerequisites**
-Enable nuget package restore
-Add Octopack to solution
-Deploy.ps1
-Deploy.cmd (MSBuild)
-YourcsProjectName.nuspec
+- Enable nuget package restore
+- Add Octopack to solution
+- Deploy.ps1
+- Deploy.cmd (MSBuild)
+- YourcsProjectName.nuspec
 
 **C.Create a Jenkins Job** 
-Source Code Management
-Build Triggers
-Build Environment (Create a formatted version number)
-Build (Change Assembly Version)
-Build(Execute Windows batch command)
-Build (Build a Visual Studio project or solution using MSBuild)
-Build(Execute Windows batch command) (Run unit tests, call OctopusDeploy API,..)
-Post Build(Notifications like Email)
+- Source Code Management
+ -Build Triggers
+- Build Environment (Create a formatted version number)
+- Build (Change Assembly Version)
+- Build(Execute Windows batch command)
+ -Build (Build a Visual Studio project or solution using MSBuild)
+ -Build(Execute Windows batch command) (Run unit tests, call OctopusDeploy API,..)
+- Post Build(Notifications like Email)
 
 **D.Check the build and package**
 
-Web Deployment Agent Service OctopusDeploy Tentacle(Agent) Deploy with Octopus
+-Jenkins Console Log
+-Nuget Package Explorer
