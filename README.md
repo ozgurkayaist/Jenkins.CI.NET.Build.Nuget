@@ -1,17 +1,17 @@
 
 ## Build and Nuget your .NET solutions with Jenkins ##
- 
+
 
 **A. Required Jenkins Plugins** 
-Version Number Plugin
-Change Assembly Version
-MSBuild Plugin
-MSTestRunner Plugin
-NUnit Plugin
-(optional) Team Foundation Server Plugin
-(optional) Git Plugin
-(optional) Visual Studio Code Metrics Plugin
-(optional) Nuget Plugin
+- Version Number Plugin
+- Change Assembly Version
+- MSBuild Plugin
+- MSTestRunner Plugin
+- NUnit Plugin
+- (optional) Team Foundation Server Plugin
+- (optional) Git Plugin
+- (optional) Visual Studio Code Metrics Plugin
+- (optional) Nuget Plugin
 
 **B.Prerequisites**
 Enable nuget package restore
